@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Core", "eShop.Core\eShop.Core.csproj", "{995FBD6F-D60F-41E7-A2D7-1B430E0A6B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.UseCases", "eShop.UseCases\eShop.UseCases.csproj", "{87750290-F9A6-423E-AC1D-54158EF8405C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.UseCases", "eShop.UseCases\eShop.UseCases.csproj", "{87750290-F9A6-423E-AC1D-54158EF8405C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Data.Static", "eShop.Data.Static\eShop.Data.Static.csproj", "{0DCBB668-5328-45C3-B251-548FA668BDB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Data.Static", "eShop.Data.Static\eShop.Data.Static.csproj", "{0DCBB668-5328-45C3-B251-548FA668BDB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Blazor.Server", "eShop.Blazor.Server\eShop.Blazor.Server.csproj", "{0247F228-7882-4B6F-8C02-67F7AD902095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Blazor.Server", "eShop.Blazor.Server\eShop.Blazor.Server.csproj", "{0247F228-7882-4B6F-8C02-67F7AD902095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
