@@ -4,24 +4,28 @@
 <div class="card">
     <!--Card image-->
     <div class="view overlay">
-        <img src="@Product.ImageUrl" class="card-img-top"
-             alt="">
-        <a>
-            <div class="mask rgba-white-slight"></div>
-        </a>
+        <NavLink href="@($"/products/{Product.Id}")">
+            <img src="@Product.ImageUrl" class="card-img-top" alt="@Product.Name">
+            <a>
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </NavLink>
+
     </div>
     <!--Card image-->
     <!--Card content-->
     <div class="card-body text-center">
         <!--Category & Title-->
-        <a href="" class="grey-text">
-            <h5>@Product.Brand</h5>
-        </a>
+        <NavLink href="" class="grey-text">
+            <h5>
+                @Product.Brand
+            </h5>
+        </NavLink>
         <h5>
             <strong>
-                <a href="" class="dark-grey-text">
+                <NavLink href="@($"/products/{Product.Id}")" class="dark-grey-text">
                     @Product.Name
-                </a>
+                </NavLink>
             </strong>
         </h5>
 
