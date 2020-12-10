@@ -35,5 +35,19 @@ namespace eShop.Blazor.Server.Pages
             JsRuntime.InvokeVoidAsync("initialize");
             return base.OnAfterRenderAsync(firstRender);
         }
+
+        protected async Task HandleSearch(string searchTerm)
+        {
+            try
+            {
+                var products = await SearchProductService.Execute(searchTerm);
+                Products = products?.ToList() ?? new List<Product>();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
     }
 }
