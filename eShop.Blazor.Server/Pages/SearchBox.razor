@@ -1,6 +1,6 @@
 ﻿@inherits SearchBoxBase
 
-<form class="form-inline" @onsubmit="OnSearchSubmit">
+<form class="form-inline" @onsubmit="@(() => HandleSearch.InvokeAsync(SearchText))">
     <div class="md-form my-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" @bind-value="SearchText">
     </div>
