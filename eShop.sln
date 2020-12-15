@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Data.Static", "eShop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Blazor.Server", "eShop.Blazor.Server\eShop.Blazor.Server.csproj", "{0247F228-7882-4B6F-8C02-67F7AD902095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.ShoppingCart.LocalStorage", "eShop.ShoppingCart.LocalStorage\eShop.ShoppingCart.LocalStorage.csproj", "{8CA91593-2C5D-48A9-A64A-4C0703424787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0247F228-7882-4B6F-8C02-67F7AD902095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0247F228-7882-4B6F-8C02-67F7AD902095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0247F228-7882-4B6F-8C02-67F7AD902095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA91593-2C5D-48A9-A64A-4C0703424787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA91593-2C5D-48A9-A64A-4C0703424787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA91593-2C5D-48A9-A64A-4C0703424787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA91593-2C5D-48A9-A64A-4C0703424787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

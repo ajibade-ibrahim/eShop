@@ -1,3 +1,4 @@
+using Blazored.LocalStorage;
 using eShop.Blazor.Server.Data;
 using eShop.Data.Static;
 using eShop.UseCases.Contracts;
@@ -60,6 +61,9 @@ namespace eShop.Blazor.Server
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ISearchProduct, SearchProduct>();
             services.AddScoped<IViewProduct, ViewProduct>();
+            services.AddScoped<IAddProductToShoppingCart, AddProductToShoppingCart>();
+            services.AddScoped<IShoppingCart, ShoppingCart.LocalStorage.ShoppingCart>();
+            services.AddScoped<ILocalStorageService, LocalStorageService>();
         }
     }
 }
