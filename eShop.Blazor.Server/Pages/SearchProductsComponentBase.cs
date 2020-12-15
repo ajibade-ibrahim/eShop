@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using eShop.Core.Models;
-using eShop.UseCases.SearchProductsScreen.Contracts;
+using eShop.UseCases.Contracts;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 

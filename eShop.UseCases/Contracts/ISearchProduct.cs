@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using eShop.Core.Models;
 
-namespace eShop.UseCases.SearchProductsScreen.Contracts
+namespace eShop.UseCases.Contracts
 {
     public interface ISearchProduct
     {

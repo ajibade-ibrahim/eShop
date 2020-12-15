@@ -1,8 +1,10 @@
 using eShop.Blazor.Server.Data;
 using eShop.Data.Static;
+using eShop.UseCases.Contracts;
 using eShop.UseCases.Contracts.Data;
 using eShop.UseCases.SearchProductsScreen;
 using eShop.UseCases.SearchProductsScreen.Contracts;
+using eShop.UseCases.ViewProductsScreen;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

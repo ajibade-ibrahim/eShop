@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using eShop.Core.Models;
+using eShop.UseCases.Contracts;
 using eShop.UseCases.Contracts.Data;
-using eShop.UseCases.SearchProductsScreen.Contracts;
 
 namespace eShop.UseCases.SearchProductsScreen
 {

@@ -3,7 +3,7 @@ using eShop.Core.Models;
 using eShop.UseCases.Contracts.Data;
 using eShop.UseCases.SearchProductsScreen.Contracts;
 
-namespace eShop.UseCases.SearchProductsScreen
+namespace eShop.UseCases.ViewProductsScreen
 {
     public class ViewProduct : IViewProduct
     {
